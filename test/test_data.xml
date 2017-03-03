@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+    <diapo layout="title">
+        <title>
+            Test presentation
+        </title>
+    </diapo>
+    <diapo layout="title+subtitle">
+        <title>
+            Hello world
+        </title>
+        <subtitle>
+            departement project
+        </subtitle>
+    </diapo>
+    <diapo layout="title+paragraph">
+        <title>
+            with normal text
+        </title>
+        <paragraph>
+            my paragraph with one message and less than 140 characters
+        </paragraph>
+    </diapo>
+    <diapo layout="title+bullets">
+        <title>
+            with bullet points
+        </title>
+        <bullet level="0">
+            first bullet point
+        </bullet>
+        <bullet level="0">
+            second bullet point
+        </bullet>
+        <bullet level="1">
+            third bullet point
+        </bullet>
+    </diapo>
+    <diapo layout="title+paragraph+image">
+        <title>
+            with text and image
+        </title>
+        <paragraph>
+            jolie image
+        </paragraph>
+        <image>
+            <source>img.jpg</source>
+        </image>
+    </diapo>
+
+</user>
