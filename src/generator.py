@@ -24,7 +24,7 @@ def getSlideSubtitle(slide):
 
 
 def getSlideParagraph(slide):
-    return slide.xpath('paragraph')[0].text.replace('\n', "").replace('\r', "").replace('\t', "")
+    return slide.xpath('paragraph')[0].text.replace('\n', "").replace('\r', "").replace('\t', "").replace('<br/>', "\n")
 
 
 def getSlideBullets(slide):
